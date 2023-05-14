@@ -1,5 +1,6 @@
 {
   "name": "@haorama/nestjs-mailer",
+  "private": false,
   "version": "0.0.1",
   "author": {
     "name": "Michael Lazuardy"
