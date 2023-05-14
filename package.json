@@ -17,8 +17,9 @@
   "devDependencies": {
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
+    "@types/nodemailer": "^6.4.7",
     "nodemailer": "^6.9.1",
     "rimraf": "^4.4.1",
-    "@types/nodemailer": "^6.4.7"
+    "typescript": "^5.0.4"
   }
 }
