@@ -1,10 +1,27 @@
 {
   "name": "@haorama/nestjs-mailer",
-  "private": false,
   "version": "0.0.1",
+  "description": "Nestjs mailer module",
+  "keywords": [
+    "nestjs",
+    "mailer",
+    "mailing",
+    "mail",
+    "mail service",
+    "typescript",
+    "nodemailer"
+  ],
   "author": {
     "name": "Michael Lazuardy"
   },
+  "repository": {
+    "url": "https://github.com/haorama/nestjs-mailer",
+    "type": "git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
