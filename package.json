@@ -1,0 +1,24 @@
+{
+  "name": "@haorama/nestjs-mailer",
+  "version": "0.0.1",
+  "author": {
+    "name": "Michael Lazuardy"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && nest build"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0 | ^9.0.0",
+    "@nestjs/core": "^8.0.0 | ^9.0.0",
+    "nodemailer": "^6.9.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "nodemailer": "^6.9.1",
+    "rimraf": "^4.4.1",
+    "@types/nodemailer": "^6.4.7"
+  }
+}
