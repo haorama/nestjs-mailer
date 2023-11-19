@@ -6,6 +6,7 @@ import * as nodemailer from "nodemailer";
 describe("Mail (e2e) forRoot", () => {
   let app: NestApplication;
   let testingModule: TestingModule;
+  let mailerService: MailerService
 
   beforeAll(async () => {
     const account = await nodemailer.createTestAccount();
@@ -30,9 +31,14 @@ describe("Mail (e2e) forRoot", () => {
 
     app = testingModule.createNestApplication();
     await app.init();
+    mailerService = app.get(MailerService);
   });
 
   it("should send email", async () => {
-    expect(0).toBe(0);
-  }, 20000)
+    //
+  }, 20000);
+
+  afterAll(async () => {
+    await app.close();
+  });
 })
