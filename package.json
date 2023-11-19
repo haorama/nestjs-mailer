@@ -1,6 +1,6 @@
 {
   "name": "@haorama/nestjs-mailer",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Nestjs mailer module",
   "keywords": [
     "nestjs",
